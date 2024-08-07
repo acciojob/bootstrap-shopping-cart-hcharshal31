@@ -3,14 +3,96 @@
 <html>
 
 <head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles.css">
+	<title>Shopping Cart</title>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<h1 class= "block-heading">Shopping Cart</h1>
+	<p class="sub-title">The cutomer is very improtant, the customer will<br> be followed by the customer. Now, as an urn, I have<br> no right to be in possession of property.</p>
+	<!-- main containe's left section that includes products image and specifications and other info -->
+	<div class="container">
+    <div class="product col-lg-8" aria-label="Product details">
+        <div class="row">
+            <div class="col">
+                <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBWfYrpvpuPr5QgnH0l7iMOPwY6sheovETYQ&s"
+                     alt="Iphone 15 Pro Max">
+            </div>
+            <div class="col">
+                <p class="phone-name">Iphone 15 Pro Max</p>
+                <p class="phone-specs">Display: 6.5 Inches<br>Ram: 4GB<br>Storage: 128GB</p>
+            </div>
+            <div class="col">
+                <label for="quantity">Quantity:</label><br>
+                <input type="number" id="quantity" name="quantity" min="0" max="100" step="1" required>
+            </div>
+            <div class="price col">$120</div>
+        </div>  
 
+        <div class="row">
+          <div class="col">
+              <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBWfYrpvpuPr5QgnH0l7iMOPwY6sheovETYQ&s"
+                   alt="Iphone 15 Pro Max">
+          </div>
+          <div class="col">
+              <p class="phone-name">Iphone 15 Pro Max</p>
+              <p class="phone-specs">Display: 6.5 Inches<br>Ram: 4GB<br>Storage: 128GB</p>
+          </div>
+          <div class="col">
+              <label for="quantity">Quantity:</label><br>
+              <input type="number" id="quantity" name="quantity" min="0" max="100" step="1" required>
+          </div>
+          <div class="price col">$120</div>
+      </div>  
+
+      <div class="row">
+        <div class="col">
+            <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBWfYrpvpuPr5QgnH0l7iMOPwY6sheovETYQ&s"
+                 alt="Iphone 15 Pro Max">
+        </div>
+        <div class="col">
+            <p class="phone-name">Iphone 15 Pro Max</p>
+            <p class="phone-specs">Display: 6.5 Inches<br>Ram: 4GB<br>Storage: 128GB</p>
+        </div>
+        <div class="col">
+            <label for="quantity">Quantity:</label><br>
+            <input type="number" id="quantity" name="quantity" min="0" max="100" step="1" required>
+        </div>
+        <div class="price col">$120</div>
+    </div>
+    </div>
+    <div class="col-lg-4 summary">
+        <h3 class="text-center pt-2">Summary</h3>
+
+        <div class="bill">
+          <p>sub total</p>
+          <p>$360</p>
+        </div>
+
+        <div class="bill">
+          <p>Discount</p>
+          <p>$0</p>
+        </div>
+
+        <div class="bill">
+          <p>shipping</p>
+          <p>$0</p>
+        </div>
+
+        <div class="bill">
+          <p>Total</p>
+          <p>$360</p>
+        </div>
+
+        <div class="cta">
+          <input type="button" value="checkout" class="primary">
+        </div>
+    </div>
+</div>
+	
+    <script type="text/javascript" src="./script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
