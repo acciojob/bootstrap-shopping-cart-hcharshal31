@@ -13,6 +13,10 @@ body{
 	color: #3b99e0;
 	margin: 20px 0px 20px;
 }
+p{
+    text-align: center; 
+}
+
 .sub-title{
 	text-align: center;
 }
@@ -35,7 +39,7 @@ body{
     margin-top: 20px;
 }
 
-.product{
+.product, .col-lg-8{
     margin-top: 30px;
     padding-top: 20px;
 }
